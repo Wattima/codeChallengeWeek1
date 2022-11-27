@@ -1,6 +1,10 @@
 WK1: Code Challenge
+
+
 Challenge for week 1 that had three tasks to test beginner skills in Javascript.
+
 Tasks:
+
 Challenge 1: Student Grade Generator (Toy Problem)
 Write that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade: 
 
