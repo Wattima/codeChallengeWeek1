@@ -1,7 +1,12 @@
 WK1: Code Challenge
-
-
 Challenge for week 1 that had three tasks to test beginner skills in Javascript.
+
+### Prerequisites
+* node v14.17.4 and above
+* npm 6.14.14 and above
+* Vue 2.6.11
+* Then install the various packages from package.json `npm install`
+* Create environment variables
 
 Tasks:
 
@@ -24,3 +29,19 @@ NB: Use KRA, NHIF, and NSSF values provided in the link below.
 https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.  
 
 https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
+
+Meta
+----
+Author:
+   * **Daryl Wattima** - 
+Status:
+    maintained, and is currently in development
+Version:
+    v0.1.0
+Usage
+-----
+## License
+This project is licensed under the MIT License
+
+-------------
+
