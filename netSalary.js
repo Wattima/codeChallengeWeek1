@@ -1,6 +1,6 @@
 // Net Salary Calculator
-function netSalaryCalculator() {
-  let basicSalary = prompt("Input basic salary");
+function netSalaryCalculator(basicSalary) {
+  
   
   //PAYE
   if (basicSalary <= 24000) {
@@ -62,4 +62,7 @@ function netSalaryCalculator() {
   let netSalary = basicSalary - paye - deductionN - nssf;
   console.log(`Net Salary:${netSalary}`);
 }
-netSalaryCalculator();
+var prompt = require('prompt-sync')();
+let grossSalary = prompt("Input basic salary: ");
+netSalaryCalculator(grossSalary);
+

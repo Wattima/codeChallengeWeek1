@@ -1,9 +1,8 @@
 // Speed Detector
 
 //Declared function speedDetector
-function speedDetector() {
-  //declared a variable speed which is input by the user
-  let speed = prompt("Input speed of car");
+function speedDetector(speed) {
+  
   // intiliazed a conditional if else if statement
   //if the speed defined by the prompt is less than or equal to 70
   if (speed <= 70) {
@@ -20,4 +19,7 @@ function speedDetector() {
     }
   }
 }
-console.log(speedDetector());
+//declared a variable speed which is input by the user
+var prompt = require('prompt-sync')();
+let newSpeed = prompt("Input speed of car: ");
+speedDetector(newSpeed);

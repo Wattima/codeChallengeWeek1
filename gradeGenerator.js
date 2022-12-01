@@ -3,9 +3,8 @@ Student Grade Generator
 Prompts user to input student marks and outputs
 respective grade
 */
-function gradeGenerator() {
-  //declaration of student mark to be input by user
-  let studentMark = prompt("Input student marks");
+function gradeGenerator(studentMark) {
+ 
   //conditional statement to assign grade to respective ranges
   if (studentMark > 79 && studentMark <= 100) {
     console.log("A");
@@ -22,4 +21,7 @@ function gradeGenerator() {
     console.log("Invalid student mark");
   }
 }
-gradeGenerator();
+ //declaration of student mark to be input by user
+ var prompt = require('prompt-sync')();
+let mark = prompt("Input student marks: ");
+gradeGenerator(mark);
