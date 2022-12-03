@@ -43,8 +43,10 @@ Version:
 
 -----
 ## License
-MIT 
-Copyright (c) 2022 Daryl Wattima
+MIT License
+
+
+Copyright (c) 2022 Wattima
 
 -------------
 
